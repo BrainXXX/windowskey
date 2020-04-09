@@ -1,0 +1,10 @@
+F:\Programming\Xiaomi Reconciliation\NewsGen\bin\Debug\NewsGen.exe
+F:\Programming\Xiaomi Reconciliation\NewsGen\bin\Debug\NewsGen.pdb
+F:\Programming\Xiaomi Reconciliation\NewsGen\obj\x86\Debug\XiaomiReconciliation.csprojResolveAssemblyReference.cache
+F:\Programming\Xiaomi Reconciliation\NewsGen\obj\x86\Debug\NewsGen.Form1.resources
+F:\Programming\Xiaomi Reconciliation\NewsGen\obj\x86\Debug\NewsGen.Properties.Resources.resources
+F:\Programming\Xiaomi Reconciliation\NewsGen\obj\x86\Debug\XiaomiReconciliation.csproj.GenerateResource.Cache
+F:\Programming\Xiaomi Reconciliation\NewsGen\obj\x86\Debug\NewsGen.exe
+F:\Programming\Xiaomi Reconciliation\NewsGen\obj\x86\Debug\NewsGen.pdb
+F:\Programming\Xiaomi Reconciliation 2\NewsGen\obj\x86\Debug\NewsGen.exe
+F:\Programming\Xiaomi Reconciliation 2\NewsGen\obj\x86\Debug\NewsGen.pdb

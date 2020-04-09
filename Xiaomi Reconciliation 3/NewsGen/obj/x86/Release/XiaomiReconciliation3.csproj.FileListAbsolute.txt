@@ -1,0 +1,17 @@
+F:\Programming\Xiaomi Reconciliation 3\NewsGen\bin\Release\XiaomiReconciliation2.exe
+F:\Programming\Xiaomi Reconciliation 3\NewsGen\bin\Release\XiaomiReconciliation2.pdb
+F:\Programming\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation3.csprojResolveAssemblyReference.cache
+F:\Programming\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\NewsGen.Form1.resources
+F:\Programming\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation2.Properties.Resources.resources
+F:\Programming\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation3.csproj.GenerateResource.Cache
+F:\Programming\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation2.exe
+F:\Programming\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation2.pdb
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\bin\Release\XiaomiReconciliation2.exe
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\bin\Release\XiaomiReconciliation2.pdb
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation3.csprojAssemblyReference.cache
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\NewsGen.Form1.resources
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation2.Properties.Resources.resources
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation3.csproj.GenerateResource.cache
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation3.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation2.exe
+C:\Users\BrainX\Documents\SmartGit\Xiaomi Reconciliation 3\NewsGen\obj\x86\Release\XiaomiReconciliation2.pdb

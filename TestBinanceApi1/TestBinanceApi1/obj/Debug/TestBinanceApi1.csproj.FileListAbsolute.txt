@@ -1,0 +1,14 @@
+C:\Users\BrainX\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\obj\Debug\TestBinanceApi1.csprojAssemblyReference.cache
+C:\Users\BrainX\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\obj\Debug\TestBinanceApi1.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\bin\Debug\TestBinanceApi1.exe.config
+C:\Users\BrainX\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\bin\Debug\TestBinanceApi1.exe
+C:\Users\BrainX\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\bin\Debug\TestBinanceApi1.pdb
+C:\Users\BrainX\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\obj\Debug\TestBinanceApi1.exe
+C:\Users\BrainX\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\obj\Debug\TestBinanceApi1.pdb
+C:\Users\admindc\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\bin\Debug\TestBinanceApi1.exe.config
+C:\Users\admindc\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\bin\Debug\TestBinanceApi1.exe
+C:\Users\admindc\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\bin\Debug\TestBinanceApi1.pdb
+C:\Users\admindc\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\obj\Debug\TestBinanceApi1.csprojAssemblyReference.cache
+C:\Users\admindc\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\obj\Debug\TestBinanceApi1.csproj.CoreCompileInputs.cache
+C:\Users\admindc\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\obj\Debug\TestBinanceApi1.exe
+C:\Users\admindc\Documents\SmartGit\TestBinanceApi1\TestBinanceApi1\obj\Debug\TestBinanceApi1.pdb

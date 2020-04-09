@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A multi-purpose template for creating an ASP.NET Core website." />
+    <meta name="author" content="William Sawyerr" />
+
+    <environment include="Production">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/css/bootstrap.min.css"
+              integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+              asp-fallback-href="~/lib/font-awesome/css/font-awesome.min.css"
+              integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    </environment>
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/css/bootstrap.min.css"
+              integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+              asp-fallback-href="~/lib/font-awesome/css/font-awesome.min.css"
+              integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    </environment>
+
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <link href="~/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!--SET YOUR WEBSITE'S CANONICAL URL-->
+    <!-- <link href="#" rel="canonical" /> -->
+
+    <title>Genero1_Test_Blend_ | @ViewData["Title"]</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Genero1_Test_Blend_</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Services">
+                                Services
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/CaseStudies">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Community">Community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">
+            Designed by <a href="mailto:ws.emailuser@gmail.com">William Sawyerr</a><br />
+            <i class="fa fa-creative-commons" aria-hidden="true"></i> 2019
+            </p>
+        </div>
+    </footer>
+
+    <environment include="Production">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                asp-fallback-src="~/lib/jquery/jquery.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+                asp-fallback-src="~/lib/popper.js/popper.min.js"
+                integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+        </script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/js/bootstrap.min.js"
+                integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+        </script>
+    </environment>
+    <environment include="Development">
+        <script src="~/lib/jquery/jquery.js"></script>
+        <script src="~lib/popper.js/popper.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                asp-fallback-src="~/lib/jquery/jquery.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+                asp-fallback-src="~/lib/popper.js/popper.min.js"
+                integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+        </script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/js/bootstrap.min.js"
+                integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+        </script>
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

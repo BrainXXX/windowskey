@@ -1,0 +1,13 @@
+c:\users\admindc\documents\visual studio 2015\Projects\OpenMSKey\OpenMSKey\bin\Debug\OpenMSKey.exe.config
+c:\users\admindc\documents\visual studio 2015\Projects\OpenMSKey\OpenMSKey\bin\Debug\OpenMSKey.exe
+c:\users\admindc\documents\visual studio 2015\Projects\OpenMSKey\OpenMSKey\bin\Debug\OpenMSKey.pdb
+c:\users\admindc\documents\visual studio 2015\Projects\OpenMSKey\OpenMSKey\obj\Debug\OpenMSKey.csprojResolveAssemblyReference.cache
+c:\users\admindc\documents\visual studio 2015\Projects\OpenMSKey\OpenMSKey\obj\Debug\OpenMSKey.exe
+c:\users\admindc\documents\visual studio 2015\Projects\OpenMSKey\OpenMSKey\obj\Debug\OpenMSKey.pdb
+C:\Users\BrainX\Documents\Visual Studio 2017\Projects\OpenMSKey\OpenMSKey\bin\Debug\OpenMSKey.exe.config
+C:\Users\BrainX\Documents\Visual Studio 2017\Projects\OpenMSKey\OpenMSKey\bin\Debug\OpenMSKey.exe
+C:\Users\BrainX\Documents\Visual Studio 2017\Projects\OpenMSKey\OpenMSKey\bin\Debug\OpenMSKey.pdb
+C:\Users\BrainX\Documents\Visual Studio 2017\Projects\OpenMSKey\OpenMSKey\obj\Debug\OpenMSKey.csprojAssemblyReference.cache
+C:\Users\BrainX\Documents\Visual Studio 2017\Projects\OpenMSKey\OpenMSKey\obj\Debug\OpenMSKey.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\Visual Studio 2017\Projects\OpenMSKey\OpenMSKey\obj\Debug\OpenMSKey.exe
+C:\Users\BrainX\Documents\Visual Studio 2017\Projects\OpenMSKey\OpenMSKey\obj\Debug\OpenMSKey.pdb

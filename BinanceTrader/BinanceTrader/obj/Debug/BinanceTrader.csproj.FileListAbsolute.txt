@@ -1,0 +1,15 @@
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\bin\Debug\BinanceTrader.exe.config
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\bin\Debug\BinanceTrader.exe
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\bin\Debug\BinanceTrader.pdb
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader.csprojAssemblyReference.cache
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\MainWindow.g.cs
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\App.g.cs
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader_MarkupCompile.cache
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader_MarkupCompile.lref
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\MainWindow.baml
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader.g.resources
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader.Properties.Resources.resources
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader.csproj.GenerateResource.cache
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader.exe
+C:\Users\BrainX\Documents\SmartGit\BinanceTrader\BinanceTrader\obj\Debug\BinanceTrader.pdb

@@ -1,0 +1,20 @@
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC2\TestBTC2\bin\Debug\TestBTC2.exe.config
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC2\TestBTC2\bin\Debug\TestBTC2.exe
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC2\TestBTC2\bin\Debug\TestBTC2.pdb
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC2\TestBTC2\obj\Debug\TestBTC2.Form1.resources
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC2\TestBTC2\obj\Debug\TestBTC2.Properties.Resources.resources
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC2\TestBTC2\obj\Debug\TestBTC2.csproj.GenerateResource.Cache
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC2\TestBTC2\obj\Debug\TestBTC2.exe
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC2\TestBTC2\obj\Debug\TestBTC2.pdb
+C:\Users\admindc\Documents\Visual Studio 2015\Projects\TestBTC2\TestBTC2\obj\Debug\TestBTC2.csprojAssemblyReference.cache
+C:\Users\admindc\Documents\Visual Studio 2015\Projects\TestBTC2\TestBTC2\obj\Debug\TestBTC2.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\bin\Debug\TestBTC2.exe.config
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\bin\Debug\TestBTC2.exe
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\bin\Debug\TestBTC2.pdb
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\obj\Debug\TestBTC2.csprojAssemblyReference.cache
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\obj\Debug\TestBTC2.Form1.resources
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\obj\Debug\TestBTC2.Properties.Resources.resources
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\obj\Debug\TestBTC2.csproj.GenerateResource.cache
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\obj\Debug\TestBTC2.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\obj\Debug\TestBTC2.exe
+C:\Users\BrainX\Documents\SmartGit\TestBTC2\TestBTC2\obj\Debug\TestBTC2.pdb

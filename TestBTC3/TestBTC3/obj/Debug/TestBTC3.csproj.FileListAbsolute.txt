@@ -1,0 +1,14 @@
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC3\TestBTC3\bin\Debug\TestBTC3.exe.config
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC3\TestBTC3\bin\Debug\TestBTC3.exe
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC3\TestBTC3\bin\Debug\TestBTC3.pdb
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC3\TestBTC3\obj\Debug\TestBTC3.exe
+c:\users\admindc\documents\visual studio 2015\Projects\TestBTC3\TestBTC3\obj\Debug\TestBTC3.pdb
+C:\Users\admindc\Documents\Visual Studio 2015\Projects\TestBTC3\TestBTC3\obj\Debug\TestBTC3.csprojAssemblyReference.cache
+C:\Users\admindc\Documents\Visual Studio 2015\Projects\TestBTC3\TestBTC3\obj\Debug\TestBTC3.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\TestBTC3\TestBTC3\bin\Debug\TestBTC3.exe.config
+C:\Users\BrainX\Documents\SmartGit\TestBTC3\TestBTC3\bin\Debug\TestBTC3.exe
+C:\Users\BrainX\Documents\SmartGit\TestBTC3\TestBTC3\bin\Debug\TestBTC3.pdb
+C:\Users\BrainX\Documents\SmartGit\TestBTC3\TestBTC3\obj\Debug\TestBTC3.csprojAssemblyReference.cache
+C:\Users\BrainX\Documents\SmartGit\TestBTC3\TestBTC3\obj\Debug\TestBTC3.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\TestBTC3\TestBTC3\obj\Debug\TestBTC3.exe
+C:\Users\BrainX\Documents\SmartGit\TestBTC3\TestBTC3\obj\Debug\TestBTC3.pdb

@@ -1,0 +1,10 @@
+f:\Programming\Xiaomi Stock\NewsGen\obj\x86\Debug\NewsGen.exe
+f:\Programming\Xiaomi Stock\NewsGen\obj\x86\Debug\NewsGen.pdb
+f:\Programming\Xiaomi Stock\NewsGen\bin\Debug\NewsGen.exe
+f:\Programming\Xiaomi Stock\NewsGen\bin\Debug\NewsGen.pdb
+f:\Programming\Xiaomi Stock\NewsGen\obj\x86\Debug\XiaomiStock.csprojResolveAssemblyReference.cache
+f:\Programming\Xiaomi Stock\NewsGen\obj\x86\Debug\NewsGen.Form1.resources
+f:\Programming\Xiaomi Stock\NewsGen\obj\x86\Debug\NewsGen.Properties.Resources.resources
+f:\Programming\Xiaomi Stock\NewsGen\obj\x86\Debug\XiaomiStock.csproj.GenerateResource.Cache
+F:\Programming\Xiaomi Reconciliation\NewsGen\obj\x86\Debug\NewsGen.exe
+F:\Programming\Xiaomi Reconciliation\NewsGen\obj\x86\Debug\NewsGen.pdb
