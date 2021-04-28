@@ -93,7 +93,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 301);
+            this.label5.Location = new System.Drawing.Point(12, 347);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 4;
@@ -104,11 +104,11 @@
             this.label6.AutoSize = true;
             this.label6.Enabled = false;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(235, -2);
+            this.label6.Location = new System.Drawing.Point(380, -2);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(302, 13);
+            this.label6.Size = new System.Drawing.Size(305, 13);
             this.label6.TabIndex = 5;
-            this.label6.Text = "разработчик Нечаев Сергей; email: nechaev.s@dns-shop.ru";
+            this.label6.Text = "разработчик: Нечаев Сергей; email: nechaev.s@dns-shop.ru";
             // 
             // label7
             // 
@@ -151,7 +151,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(112, 184);
+            this.label11.Location = new System.Drawing.Point(112, 188);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(34, 13);
             this.label11.TabIndex = 10;
@@ -161,7 +161,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(166, 184);
+            this.label12.Location = new System.Drawing.Point(166, 188);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(41, 13);
             this.label12.TabIndex = 11;
@@ -197,17 +197,16 @@
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(166, 253);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 13);
+            this.label16.Size = new System.Drawing.Size(495, 89);
             this.label16.TabIndex = 15;
             this.label16.Text = "label16";
             // 
             // button3
             // 
             this.button3.Image = global::windowskey.Properties.Resources.point_and_shoot_camera512;
-            this.button3.Location = new System.Drawing.Point(454, 35);
+            this.button3.Location = new System.Drawing.Point(586, 35);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 69);
             this.button3.TabIndex = 18;
@@ -217,7 +216,7 @@
             // button2
             // 
             this.button2.Image = global::windowskey.Properties.Resources._8saveas24;
-            this.button2.Location = new System.Drawing.Point(416, 75);
+            this.button2.Location = new System.Drawing.Point(548, 75);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(32, 31);
             this.button2.TabIndex = 17;
@@ -227,7 +226,7 @@
             // button1
             // 
             this.button1.Image = global::windowskey.Properties.Resources._8saveas24;
-            this.button1.Location = new System.Drawing.Point(416, 35);
+            this.button1.Location = new System.Drawing.Point(548, 35);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(32, 32);
             this.button1.TabIndex = 16;
@@ -238,7 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 323);
+            this.ClientSize = new System.Drawing.Size(684, 369);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -264,7 +263,7 @@
             this.Name = "Form1";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Windows KEY";
+            this.Text = "Windows KEY [v.1.1]";
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

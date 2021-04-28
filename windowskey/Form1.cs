@@ -17,9 +17,6 @@ namespace windowskey
 {
     public partial class Form1 : Form
     {
-
-        public static string hddGSB = "";
-
         public Form1()
         {
             InitializeComponent();
@@ -254,7 +251,7 @@ namespace windowskey
                     if (enumerator.MoveNext())
                     {
                         ManagementObject managementObject = (ManagementObject)enumerator.Current;
-                        return managementObject["Caption"].ToString() + managementObject["OSArchitecture"].ToString();
+                        return managementObject["Caption"].ToString() + " " + managementObject["OSArchitecture"].ToString();
                     }
                 }
             }
@@ -284,86 +281,31 @@ namespace windowskey
         {
             try
             {
-                using (ManagementObjectCollection.ManagementObjectEnumerator enumerator = new ManagementObjectSearcher("root\\CIMV2", "SELECT * FROM Win32_DiskDrive").Get().GetEnumerator())
+                string hdd = "";
+                string hddSerial = "";
+
+                ManagementObjectSearcher mosDisks = new ManagementObjectSearcher("root\\CIMV2", "SELECT * FROM Win32_DiskDrive WHERE InterfaceType = 'IDE' OR InterfaceType = 'SCSI'");
+                foreach (ManagementObject moDisk in mosDisks.Get())
                 {
-                    if (enumerator.MoveNext())
+                    try
                     {
-                        ManagementObject managementObject = (ManagementObject)enumerator.Current;
-                        string str1 = Convert.ToString(managementObject["Model"]);
-                        int num = Convert.ToInt32(Convert.ToDouble(managementObject["Size"]) / 1048576.0 / 1024.0);
-                        string str2 = "";
-                        string str3 = Convert.ToString(managementObject["Size"]);
-                        Form1.hddGSB = num <= 100 ? Convert.ToString(num) + " GB" : (str3.IndexOf("1000") <= -1 ? str3.Substring(0, 3) + " GB" : str3.Substring(0, 1) + " TB");
-                        if (str1.IndexOf("Hitachi") > -1)
-                        {
-                            if (str1.IndexOf("ATA") > -1)
-                                str2 = "Hitachi [" + str1.Substring(8, str1.IndexOf("ATA") - 10) + "]";
-                            else if (str1.IndexOf("SCSI") > -1)
-                                str2 = "Hitachi [" + str1.Substring(8, str1.IndexOf("SCSI") - 10) + "]";
-                        }
-                        else if (str1.IndexOf("Samsung") > -1)
-                        {
-                            if (str1.IndexOf("ATA") > -1)
-                                str2 = "Samsung [" + str1.Substring(8, str1.IndexOf("ATA") - 10) + "]";
-                            else if (str1.IndexOf("SCSI") > -1)
-                                str2 = "Samsung [" + str1.Substring(8, str1.IndexOf("SCSI") - 10) + "]";
-                        }
-                        else if (str1.IndexOf("Western Digital") > -1)
-                        {
-                            if (str1.IndexOf("ATA") > -1)
-                                str2 = "WD [" + str1.Substring(4, str1.IndexOf("ATA") - 6) + "]";
-                            else if (str1.IndexOf("SCSI") > -1)
-                                str2 = "WD [" + str1.Substring(4, str1.IndexOf("SCSI") - 6) + "]";
-                        }
-                        else if (str1.IndexOf("WD") > -1)
-                        {
-                            if (str1.IndexOf("ATA") > -1)
-                                str2 = "WD [" + str1.Substring(4, str1.IndexOf("ATA") - 6) + "]";
-                            else if (str1.IndexOf("SCSI") > -1)
-                                str2 = "WD [" + str1.Substring(4, str1.IndexOf("SCSI") - 6) + "]";
-                        }
-                        else if (str1.IndexOf("Seagate") > -1)
-                        {
-                            if (str1.IndexOf("ATA") > -1)
-                                str2 = "Seagate [" + str1.Substring(0, str1.IndexOf("ATA") - 2) + "]";
-                            else if (str1.IndexOf("SCSI") > -1)
-                                str2 = "Seagate [" + str1.Substring(0, str1.IndexOf("SCSI") - 2) + "]";
-                        }
-                        else if (str1.IndexOf("ST") > -1)
-                        {
-                            if (str1.IndexOf("ATA") > -1)
-                                str2 = "Seagate [" + str1.Substring(0, str1.IndexOf("ATA") - 2) + "]";
-                            else if (str1.IndexOf("SCSI") > -1)
-                                str2 = "Seagate [" + str1.Substring(0, str1.IndexOf("SCSI") - 2) + "]";
-                        }
-                        else if (str1.IndexOf("Mt") > -1)
-                            str2 = "Maxtor [" + str1.Substring(0, str1.IndexOf("ATA") - 10) + "]";
-                        else if (str1.IndexOf("Toshiba") > -1)
-                        {
-                            if (str1.IndexOf("ATA") > -1)
-                                str2 = "Toshiba [" + str1.Substring(8, str1.IndexOf("ATA") - 10) + "]";
-                            else if (str1.IndexOf("SCSI") > -1)
-                                str2 = "Toshiba [" + str1.Substring(8, str1.IndexOf("SCSI") - 10) + "]";
-                        }
-                        else if (str1.IndexOf("TOSHIBA") > -1)
-                        {
-                            if (str1.IndexOf("ATA") > -1)
-                                str2 = "Toshiba [" + str1.Substring(8, str1.IndexOf("ATA") - 10) + "]";
-                            else if (str1.IndexOf("SCSI") > -1)
-                                str2 = "Toshiba [" + str1.Substring(8, str1.IndexOf("SCSI") - 10) + "]";
-                        }
-                        else
-                            str2 = str1;
-                        return ((object)Form1.hddGSB).ToString() + "  " + ((object)str2).ToString();
+                        hddSerial = "[" + moDisk["SerialNumber"].ToString().Trim() + "]";
                     }
+                    catch
+                    {
+                        hddSerial = "";
+                    }
+
+                    hdd = hdd + moDisk["Model"].ToString() + " "
+                        + Math.Round(Convert.ToDouble(moDisk["Size"]) / 1024 / 1024 / 1024, 2).ToString() + " GB " + hddSerial + "\n";
                 }
+                return hdd.Trim();
             }
             catch (Exception ex)
             {
-                System.Windows.Forms.MessageBox.Show(ex.Source);
+                MessageBox.Show(ex.Source);
                 return (string)null;
             }
-            return (string)null;
         }
 
         private void button1_Click(object sender, EventArgs e)
